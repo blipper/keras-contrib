@@ -19,13 +19,14 @@ from __future__ import division
 
 import warnings
 
+import tensorflow as tf
 from keras.models import Model
 from keras.layers import Input
 from keras.layers import Activation
 from keras.layers import Dense
 from keras.layers import Flatten
 from keras.layers import Dropout
-from keras.layers import BatchNormalization
+from tensorflow.keras.layers import BatchNormalization
 from keras.layers import MaxPooling2D
 from keras.layers import AveragePooling2D
 from keras.layers import GlobalAveragePooling2D

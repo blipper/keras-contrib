@@ -33,7 +33,7 @@ from tensorflow.keras.layers import BatchNormalization
 from keras.regularizers import l2
 from keras import backend as K
 
-from keras.applications.imagenet_utils import _obtain_input_shape
+from tensorflow.keras.applications.imagenet_utils import _obtain_input_shape
 
 
 def _bn_relu(x, bn_name=None, relu_name=None):

@@ -29,7 +29,7 @@ from keras.layers import GlobalMaxPooling2D
 from keras.layers import GlobalAveragePooling2D
 from keras.layers import Dropout
 from keras.layers.merge import add
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers.normalization import BatchNormalization
 from keras.regularizers import l2
 from keras import backend as K
 from keras_applications.imagenet_utils import _obtain_input_shape
